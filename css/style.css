@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 90vh;
+    background:linear-gradient(rgb(0, 153, 255), white)
+}
+
+.container .text{
+    position: fixed;
+    width: 100%;
+}
+
+.container .text-fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    letter-spacing: 10px;
+    color: rgba(250, 248, 243, 0.616);
+    font-size: 15rem;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    box-shadow: 0 10px 15px black;
+    background: linear-gradient(rgb(116, 112, 112), black);
+    display: flex;
+    justify-content: center;
+}
+
+.pabelo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:100%;
+    width: 60px;
+    height: 30px;
+    margin-top: -10px;
+    background: linear-gradient(rgb(116, 112, 112), #333232);
+    box-shadow: 0 10px 5px rgb(46, 45, 45);
+    border: 1px solid rgb(100, 97, 97);
+    
+}
+
+.dot{
+    width: 15px;
+    height: 10px;
+    background: rgb(255, 174, 0);
+    border-radius: 100%;
+    box-shadow: 0px -15px 10px rgb(230, 228, 224);
+}
+
+#bomb{
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(rgb(116, 112, 112), black);
+    border-radius: 100%;
+    box-shadow: 0px -20px 20px white;
+    position: absolute;
+    left: 15px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 1s;
+}
+
+.start{
+    position: absolute;
+    top: 90%;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.start h1{
+    position: absolute;
+    text-align: center;
+    top: -30rem;
+    width: 100%;
+}
+
+.start a{
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #e7e5df;
+    border-top: 5px solid green;
+    background: #8d623a;
+    border-radius: 0 0 15px 15px;
+    text-decoration: none;
+    box-shadow: 3px 3px 10px black;
+}
+
+.start a:hover{
+    background: #8d623a;
+    padding: 9px 29px;
+    font-size: 18px;
+}
+
+.land{
+    background: #633e1c;
+    border-top: 10PX solid green;
+    height: 10vh;
+}
